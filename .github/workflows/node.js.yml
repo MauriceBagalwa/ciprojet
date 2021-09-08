@@ -24,6 +24,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: yarn
-    - run: yarn nodemon
+    - run: npm i
+    - run: npm start
     - run: systemctl restart supervisor
