@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 app.get("/dash", (req, res) => {
     res.send({
         status:200,
-        date:"welcome on my wolrd..."
+        date:"welcome on my wolrd de Bug Bro"
     })
 });
 
