@@ -21,5 +21,5 @@ app.get("/dash", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`server is runing at  http://127.0.0.1:${PORT}`);
+  console.log(`server is run http://127.0.0.1:${PORT}`);
 });
